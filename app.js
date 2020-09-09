@@ -39,6 +39,9 @@ app.use('/api', categoryRoutes);
 app.use('/api', productRoutes);
 app.use('/api', braintreeRoutes);
 app.use('/api', orderRoutes);
+app.use('/test' , (req,res)=>{
+    res.send("hey this is a test api , have a good day !")
+})
 
 const port = process.env.PORT || 8000;
 
