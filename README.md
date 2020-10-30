@@ -5,3 +5,16 @@ A lighweight , simple express application powered by latest ESM with  node (14) 
 
 
 # Find below the documentations of Api that we  provide :) 
+
+### AuthRoutes 
+ * /api/signin   Type : POST 
+ 
+  fields required :
+   <email>
+   <password>
+
+
+* /api/signOut  TYPE : GET 
+
+
+
