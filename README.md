@@ -18,3 +18,13 @@ A lighweight , simple express application powered by latest ESM with  node (14) 
 
 
 
+
+### UserRoutes 
+* /api/user/:userId   Type : GET 
+
+* /api/user/:userId   Type : PUT 
+    <name>
+    <password>
+* /orders/by/user/:userId Type : GET 
+  -- to fetch purchase history of a user      
+
