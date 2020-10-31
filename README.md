@@ -28,3 +28,12 @@ A lighweight , simple express application powered by latest ESM with  node (14) 
 * /orders/by/user/:userId Type : GET 
   -- to fetch purchase history of a user      
 
+
+
+### categoryRoutes
+ * /category/:categoryId   Type : GET 
+    -- to get the category by its id
+
+ * /category/create/:userId  Type : POST 
+    -- to create a category 
+    
